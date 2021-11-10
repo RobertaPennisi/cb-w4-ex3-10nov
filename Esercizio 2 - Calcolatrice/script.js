@@ -32,7 +32,7 @@ function newCalculator(numbers) {
     }
 }
 
-let numbersChoiche = prompt("Inserisci numeri: ");
+let numbersChoiche = prompt("Inserisci numeri separati da una virgola senza usare spazi vuoti: ");
 const splitNumbers = numbersChoiche.split(',');
 console.log(splitNumbers)
 const parsedNumbers = [];
