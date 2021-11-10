@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 10 Novembre - Coding Bootcamp</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Calcolatrice in JavaScript</h1>
+        <div class="calcolatrice">
+            <div>
+                <form>
+                    <label for="operation">Scegli l'operazione da eseguire tra: <br>somma || + <br>sottrazione || - <br>moltiplicazione || * <br>divisione || / <br>potenza || ** <br>radice || r</label>
+                    <input type="text" name="operation" id="operation" placeholder="scegli tra: + || - || * || / || ** || r" required>
+                    <label for="numbers">Scrivi i tuoi numeri separati da una virgola: </label>
+                    <input type="text" name="numbers" id="numbers" placeholder="es: 5,94,12" required>
+                    <button type="button" id="btn-data">Esegui Operazione</button>
+                </form>
+            </div>
+        </div>
+        <div class="risultato">
+            <p>Il tuo risultato è: <span></span></p>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
